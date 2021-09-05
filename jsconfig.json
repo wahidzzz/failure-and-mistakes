@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+        "module": "es6",
+      "baseUrl": ".",
+      "checkJs": false,
+      // Global paths for better folder tree access
+      "paths": {
+          "@/components/*": ["components/*"],
+      },
+    },
+    "exclude": ["node_modules","out"],
+  }
